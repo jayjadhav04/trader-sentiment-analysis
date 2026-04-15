@@ -34,15 +34,15 @@ Analyze how market sentiment (Fear/Greed) impacts trader behavior, performance, 
 
 ### 🔹 Win Rate by Sentiment
 
-![Win Rate](images/Win Rate by Sentiment.png)
+![Win Rate](images/win_rate.png)
 
 ### 🔹 Trade Size by Sentiment
 
-![Trade Size](images/Trade Size by Sentiment.png)
+![Trade Size](images/trade_size.png)
 
 ### 🔹 PnL by Frequency
 
-![PnL Frequency](images/PnL by Frequency.png)
+![PnL Frequency](images/pnl_requency.png)
 
 ---
 
