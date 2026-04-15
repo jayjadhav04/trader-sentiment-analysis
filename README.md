@@ -1,8 +1,21 @@
 # 📊 Trader Performance vs Market Sentiment Analysis
 
+## 🚀 Quick Summary
+
+This project analyzes how market sentiment (Fear/Greed) affects trader behavior and performance.
+
+👉 **Key finding:** Fear markets often provide higher average profit than Greed, while overtrading reduces performance.
+👉 **Outcome:** Data-driven strategies to improve trading efficiency and risk control.
+
+---
+
 ## 📌 Objective
 
-Analyze how market sentiment (Fear/Greed) impacts trader behavior, performance, and risk using real trading data.
+Analyze how market sentiment impacts:
+
+* Trader performance (PnL, win rate)
+* Trading behavior (frequency, trade size)
+* Risk patterns
 
 ---
 
@@ -88,13 +101,11 @@ Analyze how market sentiment (Fear/Greed) impacts trader behavior, performance, 
 
 ## 📌 Conclusion
 
-Market sentiment significantly influences trader performance and behavior.
-
-* Bullish markets improve win rates
-* Fear markets create hidden profit opportunities
+* Market sentiment significantly influences trader performance
+* Fear markets offer hidden profit opportunities
 * Discipline and risk control outperform aggressive trading
 
-👉 Successful trading depends more on behavior than market direction alone
+👉 Successful trading depends more on behavior than market direction
 
 ---
 
@@ -118,9 +129,15 @@ README.md             → Project overview
 
 ---
 
-## 📌 Note on Data
+## 📂 Dataset Access
 
-Due to dataset size, raw datasets are not included.
-Please refer to original dataset links provided in the assignment.
+Due to dataset size, raw files are hosted on Google Drive:
+
+👉 [Download Dataset](https://drive.google.com/drive/folders/1xaPsqLrGZbE3IFlYAb1CzIuOx4XJsoSc)
+
+Includes:
+- Fear & Greed Index dataset  
+- Historical Trader Data  
+
 
 ---
