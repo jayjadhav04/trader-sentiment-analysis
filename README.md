@@ -2,7 +2,7 @@
 
 ## 📌 Objective
 
-Analyze how market sentiment (Fear/Greed) impacts trader performance and behavior using real trading data.
+Analyze how market sentiment (Fear/Greed) impacts trader behavior, performance, and risk using real trading data.
 
 ---
 
@@ -16,46 +16,92 @@ Analyze how market sentiment (Fear/Greed) impacts trader performance and behavio
 ## ⚙️ Approach
 
 1. Data Cleaning & Preprocessing
-2. Feature Engineering (PnL, Win Rate, Trade Size, Frequency)
-3. Exploratory Data Analysis
-4. Trader Segmentation
-5. Behavioral Clustering
-6. Insight Extraction
-7. Strategy Recommendations
+2. Timestamp Alignment (daily level)
+3. Feature Engineering:
+
+   * Win Rate
+   * Average PnL
+   * Trade Size
+   * Trade Frequency
+4. Exploratory Data Analysis (EDA)
+5. Trader Segmentation (Frequent vs Infrequent)
+6. Behavioral Clustering (K-Means)
+7. Insight Extraction & Strategy Design
 
 ---
 
-## 📊 Key Insights
+## 📊 Sample Outputs
 
-* Extreme Greed shows highest win rate (~46%) and best performance
-* Fear conditions provide higher average PnL than Greed (non-obvious insight)
-* Traders take larger positions during Fear → higher risk
+### 🔹 Win Rate by Sentiment
+
+![Win Rate](images/Win Rate by Sentiment.png)
+
+### 🔹 Trade Size by Sentiment
+
+![Trade Size](images/Trade Size by Sentiment.png)
+
+### 🔹 PnL by Frequency
+
+![PnL Frequency](images/PnL by Frequency.png)
+
+---
+
+## 🔍 Key Insights
+
+* Extreme Greed shows highest win rate (~46%) and strongest performance
+* Fear markets provide higher average PnL than Greed (non-obvious insight)
+* Traders take larger positions during Fear → increased risk
 * Infrequent traders outperform frequent traders in Greed markets
-* Overtrading and large position sizes reduce performance
+* Overtrading and large position sizes reduce overall performance
 
 ---
 
 ## 🚀 Strategy Recommendations
 
-* Reduce trade frequency during Greed to improve efficiency
-* Limit position size during Fear to control risk
-* Increase exposure in bullish markets with strict risk management
-* Avoid overtrading and excessive risk-taking behavior
+### Strategy 1: Control Overtrading
+
+* Reduce trade frequency during Greed phases
+* Improves efficiency and profitability
+
+---
+
+### Strategy 2: Risk Control in Fear Markets
+
+* Limit position size during Fear conditions
+* Reduces exposure to volatility
+
+---
+
+### Strategy 3: Controlled Participation in Bull Markets
+
+* Increase exposure during Extreme Greed with strict risk management
+* Captures trend opportunities while limiting risk
+
+---
+
+### Strategy 4: Avoid Aggressive Trading Behavior
+
+* Limit excessive trading and large position sizing
+* Improves consistency and long-term performance
 
 ---
 
 ## 📌 Conclusion
 
-* Market sentiment strongly influences trader performance
-* Fear markets offer hidden opportunities
-* Risk management and discipline matter more than market direction
+Market sentiment significantly influences trader performance and behavior.
+
+* Bullish markets improve win rates
+* Fear markets create hidden profit opportunities
+* Discipline and risk control outperform aggressive trading
+
+👉 Successful trading depends more on behavior than market direction alone
 
 ---
 
 ## 🛠️ How to Run
 
 ```bash
-pip install pandas matplotlib seaborn scikit-learn
+pip install pandas numpy matplotlib seaborn scikit-learn
 jupyter notebook analysis.ipynb
 ```
 
@@ -64,6 +110,17 @@ jupyter notebook analysis.ipynb
 ## 📁 Project Structure
 
 ```
-analysis.ipynb → Main analysis notebook  
-images/ → Charts used in analysis  
+analysis.ipynb        → Main analysis notebook  
+images/               → Visual outputs  
+Analysis Report.pdf   → Final summarized report  
+README.md             → Project overview  
 ```
+
+---
+
+## 📌 Note on Data
+
+Due to dataset size, raw datasets are not included.
+Please refer to original dataset links provided in the assignment.
+
+---
